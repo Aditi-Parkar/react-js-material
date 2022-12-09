@@ -18,9 +18,11 @@ const NavBar = () => {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" style={style}>
-                        React User Application
+                        Client Management
                     </Typography>
-                    <Button color="inherit">Login</Button>
+                    <Button color="inherit" onClick={() => this.createClient()}>
+                        Home
+                        </Button>
                 </Toolbar>
             </AppBar>
         </div>
